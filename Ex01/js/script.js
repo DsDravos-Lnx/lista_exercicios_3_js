@@ -12,7 +12,7 @@ const calcularMedia = function(){
     
         }
     }
-    return (console.log(totalNotas/count))
+    return alert(totalNotas/count)
 }
 
 calcularMedia()

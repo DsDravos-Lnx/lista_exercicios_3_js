@@ -45,15 +45,15 @@ const validarNome = function(){
     }
 
     if (primeiroNome(nome) == false){
-        document.write('nome invalido')
+        alert('nome invalido')
     }else if (sobrenome(nome) == false){
-        document.write('nome invalido')
+        alert('nome invalido')
     }else if (letraMaiscula(nome) == false){
-        document.write('nome invalido')
+        alert('nome invalido')
     }else if (semNumeros(nome) == false){
-        document.write('nome invalido')
+        alert('nome invalido')
     } else {
-        document.write('nome valido')
+        alert('nome valido')
     }
 
 }

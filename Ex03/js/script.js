@@ -10,7 +10,12 @@ const inverterNomes = function(){
         }
     }
     
-    console.log(nomes.split('_'))   
+    nomes = nomes.split('_')
+
+    for(i=nomes.length-2; i>0; i--){
+        alert(nomes[i])
+    }
+
 }
 
 inverterNomes()

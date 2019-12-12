@@ -1,4 +1,4 @@
-const inverterNomes = function(){
+const maioridadePenal = function(){
     let laco = true, maiores = 0, menores = 0
 
     while (laco == true){
@@ -18,4 +18,4 @@ const inverterNomes = function(){
 
 }
 
-inverterNomes()
+maioridadePenal()

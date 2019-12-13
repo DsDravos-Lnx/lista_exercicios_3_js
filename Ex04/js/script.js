@@ -1,7 +1,7 @@
 const maioridadePenal = function(){
     let laco = true, maiores = 0, menores = 0
 
-    while (laco == true){
+    while (laco){
         let idade = prompt('digite uma idade:')
         
         if (idade.toUpperCase() == 'FIM'){

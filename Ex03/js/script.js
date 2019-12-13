@@ -1,7 +1,7 @@
 const inverterNomes = function(){
     let laco = true, nomes = '_'
 
-    while (laco == true){
+    while (laco){
         let nome = prompt('digite um nome:')
         if (nome.toUpperCase() == 'FIM'){
             laco = false

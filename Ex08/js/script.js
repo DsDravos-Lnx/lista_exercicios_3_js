@@ -15,7 +15,7 @@
         let aux = nome.split(' ')
         
         for (let i=0 ; i< aux.length; i++){
-            if (aux[i] != 'do' && aux[i] != 'de' && aux[i] != 'da'){
+            if (aux[i] != 'do' | aux[i] != 'de' | aux[i] != 'da'){
                 let primeiraLetra = aux[i].charAt(0)
                 if ( primeiraLetra != primeiraLetra.toUpperCase())
                     return false

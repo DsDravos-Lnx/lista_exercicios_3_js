@@ -1,4 +1,4 @@
-const validarNome = function(){
+( function(){
     
     var nome = prompt('digite seu nome completo:')    
     
@@ -56,5 +56,4 @@ const validarNome = function(){
         alert('nome valido')
     }
 
-}
-validarNome()
+})()

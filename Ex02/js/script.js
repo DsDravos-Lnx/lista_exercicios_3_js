@@ -1,4 +1,4 @@
-const maioNumero = function(){
+( function(){
     let maior = 0
 
     for (let i=0; i<5;i++){
@@ -8,6 +8,4 @@ const maioNumero = function(){
         }
     }
     return alert(maior)
-}
-
-maioNumero()
+})()

@@ -1,4 +1,4 @@
-const localizarCaractere = function(){
+(function(){
     let nome = prompt('digite seu nome completo:')
     let numero = prompt('digite o numero do caractere:')
 
@@ -12,6 +12,4 @@ const localizarCaractere = function(){
     }
 
     caractere(nome,numero)
-}
-
-localizarCaractere()
+})()

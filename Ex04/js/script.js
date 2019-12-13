@@ -1,4 +1,4 @@
-const maioridadePenal = function(){
+(function(){
     let laco = true, maiores = 0, menores = 0
 
     while (laco){
@@ -16,6 +16,4 @@ const maioridadePenal = function(){
     alert(`${maiores} pessoas sao maiores de idade!`)
     alert(`${menores} pessoas sao menores de idade!`)
 
-}
-
-maioridadePenal()
+})()

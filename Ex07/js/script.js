@@ -1,4 +1,4 @@
-const tamanhoNome = function(){
+(function(){
     
     let nome = prompt('digite seu nome completo:')    
     letras = nome.replace(/\s/g, '')
@@ -6,6 +6,4 @@ const tamanhoNome = function(){
     alert(`seu nome possui ${letras.length} letras`)
     alert(`seu nome possui ${nome.length} caracteres`)
     
-}
-
-tamanhoNome()
+})()

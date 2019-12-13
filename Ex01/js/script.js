@@ -1,4 +1,4 @@
-const calcularMedia = function(){
+( function(){
 
     let totalNotas = 0, count = 0, laco = true
 
@@ -13,6 +13,4 @@ const calcularMedia = function(){
         }
     }
     return alert(totalNotas/count)
-}
-
-calcularMedia()
+})()

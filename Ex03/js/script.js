@@ -1,4 +1,4 @@
-const inverterNomes = function(){
+( function(){
     let laco = true, nomes = '_'
 
     while (laco){
@@ -16,6 +16,4 @@ const inverterNomes = function(){
         alert(nomes[i])
     }
 
-}
-
-inverterNomes()
+})()

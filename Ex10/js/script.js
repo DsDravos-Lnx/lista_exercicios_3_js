@@ -7,7 +7,7 @@
         alert('Bom dia!')
     } else if ( 12 < horaAtual && horaAtual < 18) {
         alert('Boa  tarde!')
-    } else {
+    } else if (18 < horaAtual && horaAtual < 6) {
         alert('Boa Noite!')
     }
     
